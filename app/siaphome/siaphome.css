@@ -1,0 +1,104 @@
+.text-white {
+	color: #fff
+}
+.text-bold {
+	font-weight:bold;
+}
+.login-layout .widget-box
+{
+	visibility:hidden;
+	position:fixed;
+	z-index:-5;
+	border-bottom:none;
+	box-shadow:none;
+	padding:6px;
+	-moz-transform:scale(0,1) translate(-150px);
+	-webkit-transform:scale(0,1) translate(-150px);
+	-o-transform:scale(0,1) translate(-150px);
+	-ms-transform:scale(0,1) translate(-150px);
+	transform:scale(0,1) translate(-150px)
+}
+.login-layout .widget-box.visible
+{
+	visibility:visible;
+	position:relative;
+	z-index:auto;
+	-moz-transform:scale(1,1) translate(0);
+	-webkit-transform:scale(1,1) translate(0);
+	-o-transform:scale(1,1) translate(0);
+	-ms-transform:scale(1,1) translate(0);
+	transform:scale(1,1) translate(0);
+	transition:transform .3s ease;
+	-moz-transition:-moz-transform .3s ease;
+	-webkit-transition:-webkit-transform .3s ease;
+	-o-transition:-o-transform .2s ease
+}
+.canvas {
+	border-right: 1px #5E4B00 solid;*/
+	-moz-box-shadow: 0 0 15px #000;
+	-webkit-box-shadow: 0 0 15px #000;
+	box-shadow: 0 0 15px #000;
+	background-color:#fffddf;
+}
+.bg-header {
+	height:175px;
+	background-color:blue;
+	background-image:url('header-1024.jpg');
+	background-size:100%;
+	position:relative;
+}
+.img-masjid {
+	right:21px;
+}
+.header-sticker {
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+.login-side {
+	background-color: #c9c9c9;
+	padding-bottom:25px;
+	height:331px;
+}
+.login-side p {
+	padding:20px;
+	text-align:center;
+}
+.login-forgot {
+	height:331px;
+	background-color: #c9c9c9;
+}
+.login-daftar {
+	height:331px;
+	background-color: #68BC31;
+}
+.slide-home {
+	padding:0px!important;
+}
+.login-text {
+	padding-top:25px;
+	padding-bottom:25px;
+	height:500px;
+}
+.footer-left {
+	background-image:url('footer.png');
+	height:131px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding:0px;
+	margin:0px;
+}
+.footer-right {
+	background-image:url('footer-right.png');
+	background-repeat:repeat-x;
+	height:131px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+.footnote {
+	position:absolute;
+	bottom:0px;
+	color:#Fff;
+}
+/* choosen modif */
+#nama_opsi_chosen {width:100%!important;}
