@@ -34,7 +34,7 @@
 	-o-transition:-o-transform .2s ease
 }
 .canvas {
-	border-right: 1px #5E4B00 solid;*/
+	border-right: 1px #5E4B00 solid;
 	-moz-box-shadow: 0 0 15px #000;
 	-webkit-box-shadow: 0 0 15px #000;
 	box-shadow: 0 0 15px #000;

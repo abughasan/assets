@@ -1330,7 +1330,7 @@
 	-webkit-box-shadow:none;
 	box-shadow:none;
 	min-height:45px;
-	background:#438eb9
+	background:#20AEFF
 }
 .navbar .navbar-text,.navbar .navbar-link
 {
@@ -1429,7 +1429,7 @@
 }
 .ace-nav>li.grey>a:hover,.ace-nav>li.grey>a:focus,.ace-nav>li.open.grey>a
 {
-	background-color:#4b4b4b
+	background-color:#2e6589
 }
 .ace-nav>li.purple>a
 {
